@@ -5,7 +5,7 @@ using Azure.Identity;
 using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
-
+//
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: "CORS",
